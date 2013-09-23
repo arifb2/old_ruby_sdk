@@ -27,7 +27,7 @@ There's also a parameter to define the version of the Aria API you want to use. 
 
 ## Usage
 
-AriaApi supports most of the API features defined in [https://developer.ariasystems.net/apidocs/web/app.php/api_docs](https://developer.ariasystems.net/apidocs/web/app.php/api_docs).
+AriaApi supports most of the API features defined in [https://developer.ariasystems.net/api-documentation/](https://developer.ariasystems.net/apidocs/web/app.php/api_docs).
 
 Just call the service name as an AriaApi method, the options are the same as the specified in the API docs.
 
