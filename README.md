@@ -1,6 +1,6 @@
-# AriaApi [![Build Status](https://secure.travis-ci.org/jpemberthy/aria_api.png)](http://travis-ci.org/jpemberthy/aria_api)
+#Aria Systems PHP SDK
 
-Ruby wrap for the aria billing and subscriptions API.
+The Aria Systems Ruby SDK is a collection of classes that make it easy to use the [Aria Systems](http://www.ariasystems.com/) SOAP web services in your Ruby or Ruby on Rails application. The Ruby SDK works with Aria Systems Core APIs.
 
 ## Installation
 
@@ -10,7 +10,7 @@ For Rails Apps. Just add this to Gemfile.
 
     gem "aria_api"
 
-## Configuration
+### Configuration
 
 First you'll need to define your credentials:
 
@@ -24,7 +24,6 @@ There's also a parameter to define the version of the Aria API you want to use. 
 
     AriaApi::Configuration.api_version = "5.16"
 
-
 ## Usage
 
 AriaApi supports most of the API features defined in [https://developer.ariasystems.net/api-documentation/](https://developer.ariasystems.net/api-documentation).
@@ -36,8 +35,6 @@ Just call the service name as an AriaApi method, the options are the same as the
 
 Note you don't need to pass credentials since they're already defined in the configuration module.
 
-## Demo Application
+##More Information
 
-[Code](https://github.com/jpemberthy/aria_api_demo)
-
-[Live App](http://aria-api-demo.herokuapp.com/)
+For more information check out [Aria Systems Developer Central](http://developer.ariasystems.net) for more examples, details, and support on [Aria Systems](http://www.ariasystems.com/) services and features.
