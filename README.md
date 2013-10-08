@@ -1,4 +1,4 @@
-#Aria Systems PHP SDK
+#Aria Systems Ruby SDK
 
 The Aria Systems Ruby SDK is a collection of classes that make it easy to use the [Aria Systems](http://www.ariasystems.com/) SOAP web services in your Ruby or Ruby on Rails application. The Ruby SDK works with Aria Systems Core APIs.
 
