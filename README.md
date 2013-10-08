@@ -18,7 +18,7 @@ First you'll need to define your credentials:
     AriaApi::Configuration.client_no = "the-client"
     AriaApi::Configuration.url = "https://secure.future.stage.ariasystems.net/api/ws/api_ws_class_dispatcher.php"
 
-In Rails. You could define specific configuration for each environment.
+In Rails you could define specific configuration for each environment.
 
 There's also a parameter to define the version of the Aria API you want to use.
 
@@ -26,7 +26,7 @@ There's also a parameter to define the version of the Aria API you want to use.
 
 ## Usage
 
-The Aria Ruby SDK supports the Cora API services available on [Aria Developer Central](http://developer.ariasystems.net).
+The Aria Ruby SDK supports the Core API services available on [Aria Developer Central](http://developer.ariasystems.net).
 
 Just call the service name as an AriaApi method, the options are the same as the specified in the API docs, except the client_no and auth_key as they were set up in the configuration.
 
