@@ -29,7 +29,7 @@ There's also a parameter to define the version of the Aria API you want to use.
 The Aria Ruby SDK supports the Core API services available on [Aria Developer Central](http://developer.ariasystems.net).
 
 Just call the service name as an AriaApi method, the options are the same as the specified in the API docs, except the client_no and auth_key as they were set up in the configuration. 
-A successful API call will return a hash with error_code and error_msg keys with the values of 0 and OK.
+A successful API call will return a hash including error_code and error_msg keys with the values of 0 and OK.
 
     AriaApi.get_country_from_ip(ip_address: "207.97.227.239")
     # { "country_code" => "US", "country_name" => "United States", "error_code" => 0, "error_msg" => "OK" }
