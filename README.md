@@ -1,6 +1,6 @@
-#Aria Systems Ruby SDK
+#Aria Ruby SDK
 
-The Aria Systems Ruby SDK is a collection of classes that make it easy to use the [Aria Systems](http://www.ariasystems.com/) SOAP web services in your Ruby or Ruby on Rails application. The Ruby SDK works with Aria Systems Core APIs.
+The Aria Ruby SDK is a collection of classes that make it easy to use the [Aria](http://www.ariasystems.com/) SOAP web services in your Ruby or Ruby on Rails application.
 
 ## Installation
 
@@ -20,13 +20,13 @@ First you'll need to define your credentials:
 
 In Rails. You could define specific configuration for each environment.
 
-There's also a parameter to define the version of the Aria API you want to use. Default is 5.15
+There's also a parameter to define the version of the Aria API you want to use.
 
-    AriaApi::Configuration.api_version = "5.16"
+    AriaApi::Configuration.api_version = "6.13"
 
 ## Usage
 
-The Aria Systems Ruby SDK supports the Cora API services available on [Aria Systems Developer Central](http://developer.ariasystems.net).
+The Aria Ruby SDK supports the Cora API services available on [Aria Developer Central](http://developer.ariasystems.net).
 
 Just call the service name as an AriaApi method, the options are the same as the specified in the API docs, except the client_no and auth_key as they were set up in the configuration.
 
@@ -35,4 +35,4 @@ Just call the service name as an AriaApi method, the options are the same as the
 
 ##More Information
 
-For more information check out [Aria Systems Developer Central](http://developer.ariasystems.net) for more examples, details, and support on [Aria Systems](http://www.ariasystems.com/) services and features.
+Check out [Aria Developer Central](http://developer.ariasystems.net) for more examples, details, and support on [Aria](http://www.ariasystems.com/) services and features.
